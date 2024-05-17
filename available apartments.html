@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Apartments - Urban Haven Apartments</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        background-image: url(assets/background\ image.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header{
+    border-bottom: 3px black;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+     font-size: 20px;
+     margin-left: 20px;
+
+}
+nav a:hover{
+    color: aqua;
+}
+.container {
+    display: flex; /* Enable flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping of flex items */
+    justify-content: space-around; /* Space out items evenly */
+    gap: 20px; 
+    padding: 20px; 
+}
+
+.room {
+    flex: 1 1 200px;
+    display: flex; /* Enable flexbox layout for child elements */
+    flex-direction: column; /* Stack child elements vertically */
+    align-items: center; /* Center child elements horizontally */
+    padding: 10px; /*  Add padding to each room */
+    border: 1px solid #ccc; /*  Add border to each room */
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1); /*  Add shadow for better appearance */
+    background-color: #fff; /*  Background color for each room */
+    text-align: center; /* Center text inside each room */
+}
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: large;
+    text-align: center;
+    color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+    </style>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="available apartments.html">Available Apartments</a>
+            <a href="amenities.html">Amenities</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+<div class="container">
+    <h1>Available Rooms</h1>
+
+    <div class="room">
+        <h2>Single Rooms</h2>
+        <img src="assets/single room.jpg" alt="single room" width="200px" >
+        <caption>
+        <p>Cozy and budget friendly rooms suitable for individuals.</p>
+        <p class="price">Kshs. 3500 per month</p>
+        </caption>
+    </div>
+
+    <div class="room">
+        <h2>Bedsitters</h2>
+        <img src="assets/bedsitter.jpg" alt="bedsittter" width="200px" >
+        <caption>
+        <p>Cozy and comfortable bedsitters with a kitchen area and sink suitable for individuals and couples.</p>
+        <p class="price">Kshs. 5500 per month</p>
+        </caption>
+    </div>
+
+    <div class="room">
+        <h2>Studio Apartments</h2>
+        <img src="assets/studio.jpg" alt="studio" width="200px" height="200px">
+        <caption>
+        <p>Stylish and functional apartments featuring an open layout with a combined living, sleeping, and dining area, perfect for individuals or couples seeking a modern living experience.</p>
+        <p class="price">Kshs. 7000 per month</p>
+        </caption>
+    </div>
+
+    <div class="room">
+        <h2>One Bedroom Apartments</h2>
+        <img src="assets/one separate bd.jpg" alt="one bedroom" width="200px">
+        <caption>
+        <p>Spacious apartments with a separate bedroom, ideal for individuals or couples looking for additional privacy and space.</p>
+        <p class="price">Kshs. 8500 per month</p>
+        </caption>
+    </div>
+
+    <div class="room">
+        <h2>Two Bedroom Apartments</h2>
+        <img src="assets/two separate bd.jpg" alt="two bedroom" width="200px">
+        <caption>
+        <p>Larger apartments with two separate bedrooms, suitable for small families or roommates.</p>
+        <p class="price">Kshs. 10000 per month</p>
+        </caption>
+    </div>
+
+    <div class="room">
+        <h2>One Bedroom Self-Contained Apartments</h2>
+        <img src="assets/one bd.jpg" alt=" Self-Contained" width="200px" height="200px">
+        <caption>
+        <p>Apartments with a separate bedroom and private amenities, including a kitchen and bathroom, offering utmost privacy and convenience.</p>
+        <p class="price">Kshs. 15000 per month</p>
+        </caption>
+    </div>
+
+    <div class="room">
+        <h2>Two Bedroom Self-Contained Apartments</h2>
+        <img src="assets/two bd.jpg" alt="self contained" width="200px" height="200px">
+        <caption>
+        <p>Apartments with two bedrooms and private amenities, providing ample space and comfort for families or larger households.</p>
+        <p class="price">Kshs. 20000 per month</p>
+        </caption>
+    </div>
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section contact-info">
+            <h3>Contact Us</h3>
+            <p>Urban Haven Apartments, Murangá, Kiharu.</p>
+            <p>Email: <a href="mailto:info@apartmentwebsite.com">urhaven@apartmentwebsite.com</a></p>
+            <p>Phone: (+254) 718764327</p>
+        </div>
+        <div class="footer-section social-media">
+            <h3>Follow Us</h3>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+        
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Apartment Website.</p>
+    </div>
+</footer>
+
+</body>
+</html>

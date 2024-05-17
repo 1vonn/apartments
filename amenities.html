@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amenities</title>
+</head>
+<style>
+    body {
+        background-image: url(assets/background\ image.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    header{
+    border-bottom: 3px black;
+    
+
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+     font-size: 20px;
+     margin-left: 20px;
+
+}
+nav a:hover{
+    color: aqua;
+}
+
+container {
+    text-align: center; /* Center align the content in the container */
+    display: flex; /* Enable flexbox layout */
+    flex-wrap: wrap; /* Allow wrapping of flex items */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+    padding: 20px;
+    gap: 10px;
+}
+
+.container h1 {
+    width: 100%; /* Make the heading span the full width of the container */
+    margin-bottom: 20px; /* Add some space below the heading */
+    font-family: Arial, sans-serif;
+    font-size: large;
+    color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.amenities {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line if there's not enough space */
+    justify-content: space-around;
+    padding: 20px;
+    list-style-type: none; /* Remove default underlines*/
+    margin: 10px;
+    border: 2px solid ghostwhite;
+    box-sizing: border-box;
+
+}
+
+.amenities h2 {
+    color: #007bff;
+    margin: 0;
+}
+
+
+.amenities p {
+    margin-top: 10px; /* Add spacing between the image and the paragraph */
+}
+
+    </style>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="available apartments.html">Available Apartments</a>
+            <a href="amenities.html">Amenities</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+<div class="container">
+    <h1>Available Amenities</h1>
+    <div class="amenities">
+    <div>
+        <img src="assets/free wifi.jpg" alt="wifi" width="300px" height="200px" Free wifi> 
+            <p>Except for those living in single rooms</p>
+    </div>
+       <div>
+        <img src="assets/free parking.jpg" alt="parking" width="300px" Free Parking>
+             <p>Except for those living in single rooms and bedsitters</p>
+       </div>
+        <div>
+            <img src="assets/laundry.jpg" alt="laundry" width="300px" Laundry>
+            <p>laundry @ Kshs. 150 per basket</p>
+
+        </div>
+        <div>
+            <img src="assets/gym.jpg" alt="gym" width="300px" gym>
+             <p>Except for those living in single rooms and bedsitters</p>
+        </div>
+        <div>
+            <img src="assets/swimming.jpg" alt="swimming" width="300px" Swimming pool>
+                <p>Free for everyone.</p>
+        </div>
+            <div>
+                <img src="assets/elevator.jpg" alt="elevator" width="300px" height="200px" Elevator access>
+                <p>Elevator for easy access to upper floors.</p>
+
+            </div>
+            <div>
+                <img src="assets/community theatre.jpg" alt="community theatre" width="300px" Community theatre>
+                <p>Free for everyone.</p>
+
+            </div>
+            
+            </div>
+</div>
+<footer>
+    <div class="footer-content">
+        <div class="footer-section contact-info">
+            <h3>Contact Us</h3>
+            <p>Urban Haven Apartments, Murangá, Kiharu.</p>
+            <p>Email: <a href="mailto:info@apartmentwebsite.com">urhaven@apartmentwebsite.com</a></p>
+            <p>Phone: (+254) 718764327</p>
+        </div>
+        <div class="footer-section social-media">
+            <h3>Follow Us</h3>
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://twitter.com" target="_blank">Twitter</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+        </div>
+        
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Apartment Website.</p>
+    </div>
+</footer>
+</body>
+</html>
