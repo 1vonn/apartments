@@ -1,7 +1,7 @@
 .title{
     font-size: 2.5rem;
     font-weight: bold;
-    color: aqua;
+    color:gray;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -35,31 +35,28 @@ nav a:hover{
     color: gray;
 }
 .hero {
-    position: relative;
-    height: 100vh;
+    background-image: url(assets/background\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    color: white;
-    text-align: center;
-    padding-top: 50px;
+    justify-content: center;
 }
-.hero image{
-    position: absolute;
-    width: 100%;
-    height:100%;
-    object-fit: cover;
+
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center ;
+    gap: 3rem;
+    height: 4vh;
+
 }
-.hero content {
-    max-width: 80%;
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-.body h2 {
-    text-align: center;
-    color: #000;
-}
+
+
 .container {
     display: flex; /* Enable flexbox layout */
     flex-wrap: wrap; /* Allow wrapping of flex items */
@@ -79,7 +76,7 @@ nav a:hover{
     background-color: #fff; /*  Background color for each room */
     text-align: center; /* Center text inside each room */
 }
-h1 {
+.h1 .room {
     font-family: Arial, sans-serif;
     font-size: large;
     text-align: center;
@@ -125,7 +122,7 @@ container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
+h1.room {
     text-align: center;
     color: #333;
     top: 0;
@@ -143,7 +140,7 @@ h1 {
 }
 
 .room h2 {
-    color: #007bff;
+    color: black;
     margin: 0;
 }
 
